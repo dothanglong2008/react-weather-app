@@ -1,3 +1,24 @@
+# React Weather App
+## Requirements
+
+React Weather App
+
+Create a weather application that provides detailed weather information for a location specified by the user.
+
+Functionalities:
+
+* Include a search field for the user to enter location.
+
+* Display hourly weather forecast for the current day
+
+* Allows the option to show X-day (e.g. 5-day) weather forecast
+
+* Have a responsive design and auto re-fresh periodically to get updated data
+
+* Use a weather API of choice (such as open weather map) to fetch the weather data for the location
+
+* If needed, use a geo-location API to get coordinates for the location
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
