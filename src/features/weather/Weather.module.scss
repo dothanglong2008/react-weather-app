@@ -1,0 +1,17 @@
+$primary-background-color: #ffffff;
+$primary-text-color: #000000;
+
+.weather {
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexItem {
+  width: 100%;
+}

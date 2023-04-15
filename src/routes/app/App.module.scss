@@ -1,0 +1,25 @@
+$background-color-primary: #ffffff;
+$text-color-primary: #000000;
+$font-size-primary: 16px;
+
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: $background-color-primary;
+  color: $text-color-primary;
+  font-size: $font-size-primary;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}

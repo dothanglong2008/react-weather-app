@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot with empty text 1`] = `
+<span
+  className="text"
+/>
+`;
+
+exports[`renders a piece of text with content 'Hello' 1`] = `
+<span
+  className="text"
+>
+  Hello
+</span>
+`;

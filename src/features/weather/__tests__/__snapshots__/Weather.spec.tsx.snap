@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot with empty text 1`] = `
+<div
+  className="Weather"
+>
+  <header
+    className="flex"
+  >
+    <div>
+      <h1>
+        React App Weather
+      </h1>
+    </div>
+    <div
+      className="Search"
+    >
+      <form>
+        <div>
+          <label />
+        </div>
+        <div>
+          <input
+            placeholder="Search"
+            type="text"
+          />
+          <button>
+            Search Icon
+          </button>
+        </div>
+      </form>
+    </div>
+  </header>
+  <main
+    className="flex"
+  >
+    <section
+      className="flexItem"
+    >
+      <div>
+        Ho Chi Minh City
+      </div>
+      <div>
+        28*
+      </div>
+      <div
+        className="flex"
+      >
+        <div>
+          Max. 33*
+        </div>
+        <div>
+          Min. 33*
+        </div>
+      </div>
+    </section>
+    <section
+      className="flexItem"
+    >
+      <div>
+        <span>
+          Clock Icon
+        </span>
+        <span>
+          HOURLY FORECAST
+        </span>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <div>
+              5 h(Current hour)
+            </div>
+            <div>
+              Hourly Icon
+            </div>
+            <div>
+              28 *
+            </div>
+          </li>
+          <li>
+            <div>
+              6 h (Next hour)
+            </div>
+            <div>
+              Hourly Icon
+            </div>
+            <div>
+              28 *
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section
+      className="flexItem"
+    >
+      <div>
+        <span>
+          Calendar Icon
+        </span>
+        <span>
+          10-DAY FORECAST
+        </span>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <div
+              className="flex"
+            >
+              <div>
+                Thu (Today)
+              </div>
+              <div>
+                <span>
+                  13 (date)
+                </span>
+                <span>
+                  Apr (month)
+                </span>
+              </div>
+              <div>
+                <div>
+                  Daily icon
+                </div>
+                <div>
+                  0% (Humidity)
+                </div>
+              </div>
+            </div>
+            <div
+              className="flex"
+            >
+              <div>
+                27* (Min temperature)
+              </div>
+              <div>
+                28* (Max temperature)
+              </div>
+              <div>
+                Gradient Bar
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</div>
+`;
