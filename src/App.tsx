@@ -1,7 +1,12 @@
-import "./App.scss";
+import styles from "./App.module.scss";
+import Weather from "./features/weather/Weather";
 
 function App() {
-  return <div className="App">App</div>;
+  return (
+    <div className={styles.app}>
+      <Weather />
+    </div>
+  );
 }
 
 export default App;
