@@ -22,6 +22,8 @@ Functionalities:
 # API
 
 https://www.weatherapi.com/
+
+API_KEY is stored in .env file. It is for testing purpose only and lasts for 14 days only and will be removed from repository.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
