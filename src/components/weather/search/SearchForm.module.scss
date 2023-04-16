@@ -1,0 +1,84 @@
+@use "../../../variables";
+
+/* Extra small devices (phones, 600px and down) */
+
+.form {
+  width: variables.$width-primary;
+}
+.searchContainer {
+  width: variables.$width-primary;
+}
+
+.inputContainer {
+  width: variables.$width-primary;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 1%;
+}
+
+.input[type="text"] {
+  width: 60%;
+  border: none;
+  outline: none;
+  padding: 2%;
+  border-radius: 10px 0 0 10px;
+}
+
+.input[type="text"]::placeholder {
+  font-size: medium;
+}
+
+.searchButton {
+  width: 20%;
+  border: none;
+  outline: none;
+  border-radius: 0 10px 10px 0;
+}
+
+.searchButton:hover {
+  background-color: #c4c4c4;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .inputContainer {
+    padding: 1%;
+  }
+
+  .input[type="text"] {
+    padding: 2%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .inputContainer {
+    padding: 1%;
+  }
+
+  .input[type="text"] {
+    padding: 2%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .inputContainer {
+    padding: 2%;
+  }
+
+  .input[type="text"] {
+    padding: 3%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .inputContainer {
+    padding: 0;
+  }
+
+  .input[type="text"] {
+    padding: 3%;
+  }
+}

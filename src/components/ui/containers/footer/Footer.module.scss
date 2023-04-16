@@ -1,0 +1,39 @@
+@use "../../../../variables";
+/* Extra small devices (phones, 600px and down) */
+.footer {
+  bottom: 0;
+  width: variables.$width-primary;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: variables.$background-color-primary;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .footer {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

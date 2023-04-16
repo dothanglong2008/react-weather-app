@@ -1,0 +1,9 @@
+@use "../../../variables";
+
+/* Extra small devices (phones, 600px and down) */
+.suggestion {
+  width: 20%;
+  background-color: variables.$background-color-primary;
+  border: none;
+  outline: none;
+}

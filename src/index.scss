@@ -1,0 +1,12 @@
+@use "./variables";
+
+body {
+  margin: variables.$margin-default;
+  font-family: variables.$font-family-primary;
+  -webkit-font-smoothing: variables.$webkit-font-smoothing;
+  -moz-osx-font-smoothing: variables.$webkit-font-smoothing;
+}
+
+code {
+  font-family: variables.$code-font-family-primary;
+}

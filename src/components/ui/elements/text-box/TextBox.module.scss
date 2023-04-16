@@ -1,5 +1,6 @@
-@use "../../variables";
+@use "../../styles/variables";
 
+@use "../../styles/variables";
 /* Extra small devices (phones, 600px and down) */
 .header,
 .main,
@@ -30,6 +31,8 @@
   color: transparent;
 }
 
+
+
 .item {
   display: flex;
   flex-wrap: wrap;
@@ -39,4 +42,20 @@
 .icon {
   max-width: variables.$width-primary;
   height: variables.$width-primary;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
