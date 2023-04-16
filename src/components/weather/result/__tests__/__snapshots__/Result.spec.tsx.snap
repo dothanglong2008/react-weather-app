@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Result component renders Result correctly 1`] = `
+Array [
+  <section
+    className="section"
+  >
+    <h2
+      className="sectionHeading"
+    >
+      Hourly Weather Forecast For 
+    </h2>
+    <p>
+      No data to display
+    </p>
+  </section>,
+  <section
+    className="section"
+  >
+    <section>
+      <h2
+        className="sectionHeading"
+      >
+        Next 
+        5
+         Days Weather Forecast For 
+      </h2>
+    </section>
+  </section>,
+]
+`;

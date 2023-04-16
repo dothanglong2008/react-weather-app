@@ -1,0 +1,6 @@
+@use "../../../../variables";
+/* Extra small devices (phones, 600px and down) */
+.section {
+  width: variables.$width-primary;
+  margin-top: 3%;
+}

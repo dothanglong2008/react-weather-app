@@ -1,0 +1,27 @@
+@use "../../../variables";
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.icon {
+  max-width: variables.$width-primary;
+  height: variables.$width-primary;
+}
+
+.show {
+  width: variables.$width-primary;
+  border: none;
+  outline: none;
+  padding: 1%;
+  margin-top: 1%;
+  background-color: #a1a1a1;
+  border-radius: 2px;
+}
+
+.show:hover {
+  background-color: #585858;
+  color: #ffffff;
+}

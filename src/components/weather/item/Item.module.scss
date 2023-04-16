@@ -1,0 +1,58 @@
+@use "../../../variables";
+
+/* Extra small devices (phones, 600px and down) */
+
+.itemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2%;
+  background-color: variables.$background-color-primary;
+  cursor: pointer;
+}
+
+.primary {
+  width: variables.$width-primary;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2%;
+  background-color: variables.$background-color-primary;
+}
+
+.condition {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.extra {
+  width: variables.$width-primary;
+  padding: 2%;
+}
+
+.extraBody {
+  width: variables.$width-primary;
+}
+
+.extraRow {
+  border-bottom: solid 1px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  column-gap: normal;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.extraRow > td {
+  justify-self: center;
+}
+
+.toggleButton {
+  background-color: variables.$background-color-primary;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: calc(10px + 1vmin);
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+picture,
+figure {
+  width: 100%;
+  object-fit: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+.app {
+  background-color: #ebebeb;
+}

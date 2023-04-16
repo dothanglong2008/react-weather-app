@@ -1,0 +1,7 @@
+@use "../../../../variables";
+.sectionHeading {
+  width: variables.$width-primary;
+  font-size: large;
+  display: flex;
+  align-items: center;
+}
