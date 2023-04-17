@@ -1,4 +1,5 @@
 # React Weather App
+
 ## Requirements
 
 React Weather App
@@ -7,23 +8,26 @@ Create a weather application that provides detailed weather information for a lo
 
 Functionalities:
 
-* Include a search field for the user to enter location.
+- Include a search field for the user to enter location.
 
-* Display hourly weather forecast for the current day
+- Display hourly weather forecast for the current day
 
-* Allows the option to show X-day (e.g. 5-day) weather forecast
+- Allows the option to show X-day (e.g. 5-day) weather forecast
 
-* Have a responsive design and auto re-fresh periodically to get updated data
+- Have a responsive design and auto re-fresh periodically to get updated data
 
-* Use a weather API of choice (such as open weather map) to fetch the weather data for the location
+- Use a weather API of choice (such as open weather map) to fetch the weather data for the location
 
-* If needed, use a geo-location API to get coordinates for the location
+- If needed, use a geo-location API to get coordinates for the location
 
 # API
 
 https://www.weatherapi.com/
 
-API_KEY is stored in .env file. It is for testing purpose only and lasts for 14 days only and will be removed from repository.
+This API is in 14-day Trial period, so it can only return maximum 14 days of weather forecast.
+
+API_KEY is stored in .env.local file provided by the author. It is for testing purpose only and lasts for 14 days only.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
