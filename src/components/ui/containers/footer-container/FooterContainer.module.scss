@@ -1,47 +1,41 @@
 @use "../../../../variables";
 /* Extra small devices (phones, 600px and down) */
-.heading {
+.footer {
   width: variables.$width-primary;
-  font-size: larger;
+  min-height: 50px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  background-color: variables.$background-color-primary;
+  padding-left: 2%;
+  padding-right: 2%;
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .heading {
-    width: variables.$width-primary;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: larger;
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .heading {
-    width: 40%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: larger;
+  .footer {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .heading {
-    width: 40%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: larger;
+  .footer {
+    padding-left: 15%;
+    padding-right: 15%;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .heading {
-    width: 40%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: larger;
-  }
 }

@@ -1,5 +1,5 @@
 import styles from "./App.module.scss";
-import Weather from "./features/weather/Weather";
+import Weather from "../features/weather/Weather";
 
 function App() {
   return (
