@@ -1,18 +1,18 @@
 @use "../../../../variables";
 /* Extra small devices (phones, 600px and down) */
-.footer {
-  bottom: 0;
+.main {
   width: variables.$width-primary;
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
-  background-color: variables.$background-color-primary;
+  margin: 1% 0;
   padding-left: 2%;
   padding-right: 2%;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .footer {
+  .main {
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -20,7 +20,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .footer {
+  .main {
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -28,7 +28,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .footer {
+  .main {
     padding-left: 15%;
     padding-right: 15%;
   }

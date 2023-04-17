@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../app/hooks";
 import { fetchWeatherData } from "../features/weather/weatherSlice";
-import { API_KEY } from "../constants/constants";
+import { API_KEY, MIN_DAYS } from "../constants/constants";
 
 const useFetchWeatherByLocation = () => {
   const location = useAppSelector((state) => state.weather.location);
-  const days = 5;
+  const days = MIN_DAYS;
   const dispatch = useAppDispatch();
 
   useEffect(() => {

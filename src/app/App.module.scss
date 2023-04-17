@@ -26,4 +26,7 @@ a {
 
 .app {
   background-color: #ebebeb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

@@ -8,7 +8,7 @@ Array [
     Hourly Weather Forecast For 
   </h2>,
   <p>
-    No data to display
+    Loading...
   </p>,
 ]
 `;

@@ -6,7 +6,7 @@ Array [
     className="header"
   >
     <h1
-      className="heading"
+      className="title"
     >
       <svg
         baseProfile="tiny"
@@ -121,14 +121,20 @@ Array [
   <main
     className="main"
   >
-    <p>
-      Search for a city or get current location
-    </p>
+    <section
+      className="section"
+    >
+      <p>
+        Search for a city or get current location
+      </p>
+    </section>
   </main>,
   <footer
     className="footer"
   >
-    <p>
+    <p
+      className="resource"
+    >
       <span>
         API Source: 
       </span>

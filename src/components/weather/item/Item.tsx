@@ -28,27 +28,31 @@ function Item({
           setExtra((extra) => !extra);
         }}
       >
-        <div className={styles.primary}>
-          <div>
-            <strong>{time}</strong>
-          </div>
-          <div className={styles.condition}>
-            <div>
-              <img src={icon} alt="weather icon" className={styles.icon} />
-            </div>
-            <div>
-              <strong>{temp}&#8451;</strong>
-            </div>
-          </div>
-          <div>{humidity}</div>
-          <div>{chanceOfRain}%</div>
-          <div>{extra ? <IoIosArrowUp /> : <IoIosArrowDown />}</div>
-        </div>
+        <table className={styles.primary}>
+          <tbody className={styles.primaryBody}>
+            <tr className={styles.primaryRow}>
+              <td>
+                <strong>{time}</strong>
+              </td>
+              <td className={styles.condition}>
+                <span className={styles.icon}>
+                  <img src={icon} alt="weather icon" />
+                </span>
+                <strong>{temp}&#8451;</strong>
+              </td>
+              <td className={styles.humidity}>{humidity}</td>
+              <td className={styles.rain}>{chanceOfRain}%</td>
+              <td className={styles.arrow}>
+                {extra ? <IoIosArrowUp /> : <IoIosArrowDown />}
+              </td>
+            </tr>
+          </tbody>
+        </table>
         {extra && (
           <table className={styles.extra}>
             <tbody className={styles.extraBody}>
               {extraTable.map((data) => (
-                <tr className={styles.extraRow}>
+                <tr key={data.field} className={styles.extraRow}>
                   <td>{data.field}</td>
                   <td>{data.value}</td>
                 </tr>
